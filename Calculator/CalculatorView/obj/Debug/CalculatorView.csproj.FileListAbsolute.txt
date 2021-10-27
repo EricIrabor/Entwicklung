@@ -1,0 +1,6 @@
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\bin\Debug\CalculatorView.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\bin\Debug\CalculatorView.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.AssemblyReference.cache
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.CoreCompileInputs.cache
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.pdb
