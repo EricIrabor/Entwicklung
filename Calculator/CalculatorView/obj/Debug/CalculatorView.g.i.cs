@@ -36,9 +36,9 @@ namespace CalculatorView {
     
     
     /// <summary>
-    /// CalculationView
+    /// CalculatorView
     /// </summary>
-    public partial class CalculationView : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
+    public partial class CalculatorView : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
         
         private bool _contentLoaded;
         

@@ -3,10 +3,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d">
 
-    <Grid>
+    <Window Background="DarkGray">
+
+        <Window.Resources>
+
+            <Style x:Key="ButtonStyle">
+                <Setter Property="Button.Background" Value="Black" />
+                <Setter Property="Button.Foreground" Value="White" />
+                <Setter Property="Button.FontSize" Value="30" />
+                <Setter Property="Button.FontWeight" Value="Bold" />
+                <Setter Property="Button.Margin" Value="1" />
+            </Style>
+        </Window.Resources>
+
+        <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
@@ -19,5 +31,67 @@
             <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-    </Grid>
+
+        <Button Grid.Row="0"
+                Grid.Column="0"
+                Style="{StaticResource ButtonStyle}"
+                Content="7">
+        </Button>
+            <Button Grid.Row="0"
+                Grid.Column="1"
+                Style="{StaticResource ButtonStyle}"
+                Content="8">
+            </Button>
+            <Button Grid.Row="0"
+                Grid.Column="2"
+                Style="{StaticResource ButtonStyle}"
+                Content="8">
+            </Button>
+            <Button Grid.Row="1"
+                Grid.Column="0"
+                Style="{StaticResource ButtonStyle}"
+                Content="4">
+            </Button>
+            <Button Grid.Row="1"
+                Grid.Column="1"
+                Style="{StaticResource ButtonStyle}"
+                Content="5">
+            </Button>
+            <Button Grid.Row="1"
+                Grid.Column="2"
+                Style="{StaticResource ButtonStyle}"
+                Content="6">
+            </Button>
+            <Button Grid.Row="2"
+                Grid.Column="0"
+                Style="{StaticResource ButtonStyle}"
+                Content="1">
+            </Button>
+            <Button Grid.Row="2"
+                Grid.Column="1"
+                Style="{StaticResource ButtonStyle}"
+                Content="2">
+            </Button>
+            <Button Grid.Row="2"
+                Grid.Column="2"
+                Style="{StaticResource ButtonStyle}"
+                Content="3">
+            </Button>
+            <Button Grid.Row="3"
+                Grid.Column="0"
+                Style="{StaticResource ButtonStyle}"
+                Content="+/-">
+            </Button>
+            <Button Grid.Row="3"
+                Grid.Column="1"
+                Style="{StaticResource ButtonStyle}"
+                Content="0">
+            </Button>
+            <Button Grid.Row="3"
+                Grid.Column="2"
+                Style="{StaticResource ButtonStyle}"
+                Content=".">
+            </Button>
+        </Grid>
+    </Window>
 </UserControl>
