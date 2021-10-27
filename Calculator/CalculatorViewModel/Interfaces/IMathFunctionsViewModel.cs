@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CalculatorViewModel.Interfaces
 {
-    interface ICalculatorNumberViewModel
+    public interface IMathFunctionsViewModel
     {
+        INumberViewModel calculatorNumberViewModel { get; }
     }
 }

@@ -1,0 +1,5 @@
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\bin\Debug\CalculatorViewModel.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\bin\Debug\CalculatorViewModel.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.csproj.CoreCompileInputs.cache
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.pdb

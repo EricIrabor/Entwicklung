@@ -5,9 +5,9 @@ namespace CalculatorView
     /// <summary>
     /// Interaction logic for CalculatorMathFunctionsView.xaml
     /// </summary>
-    public partial class CalculatorMathFunctionsView : UserControl
+    public partial class MathFunctionsView : UserControl
     {
-        public CalculatorMathFunctionsView()
+        public MathFunctionsView()
         {
             InitializeComponent();
         }

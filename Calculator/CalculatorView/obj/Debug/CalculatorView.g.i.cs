@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using CalculatorView;
 using System;
 using System.Diagnostics;
 using System.Windows;

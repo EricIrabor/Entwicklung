@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorViewModel.Interfaces
 {
-    interface ICalculatorViewModel
+    public interface INumberViewModel
     {
     }
 }

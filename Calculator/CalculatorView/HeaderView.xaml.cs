@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace CalculatorView
 {
     /// <summary>
-    /// Interaction logic for CalculatorDisplayView.xaml
+    /// Interaction logic for HeaderView.xaml
     /// </summary>
-    public partial class CalculatorDisplayView : UserControl
+    public partial class HeaderView : UserControl
     {
-        public CalculatorDisplayView()
+        public HeaderView()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged()
-        {
-
         }
     }
 }
