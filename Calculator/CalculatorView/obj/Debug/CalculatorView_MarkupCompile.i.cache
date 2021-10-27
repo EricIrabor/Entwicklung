@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-2956347794
+41206373463
 
-4392659155
+51905430118
 13-1505183044
-CalculatorNumberView.xaml;CalculatorView.xaml;
+CalculatorMathFunctionsView.xaml;CalculatorNumberView.xaml;CalculatorView.xaml;Style.xaml;
 
-False
+True
 
