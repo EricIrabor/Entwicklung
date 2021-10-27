@@ -16,5 +16,5 @@ DEBUG;TRACE
 161693724657
 DisplayView.xaml;HeaderView.xaml;MathFunctionsView.xaml;NumberView.xaml;CalculationView.xaml;Style.xaml;
 
-False
+True
 

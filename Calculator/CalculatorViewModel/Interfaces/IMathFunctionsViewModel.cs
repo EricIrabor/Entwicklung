@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorViewModel.Interfaces
+﻿namespace CalculatorViewModel.Interfaces
 {
     public interface IMathFunctionsViewModel
     {
-        INumberViewModel calculatorNumberViewModel { get; }
+        INumberViewModel NumberViewModel { get; }
     }
 }

@@ -53,5 +53,11 @@
     <Compile Include="Interfaces\ICalculationViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorBL\CalculatorBL.csproj">
+      <Project>{bd11e729-e792-40f9-ae66-8d70e5fab52e}</Project>
+      <Name>CalculatorBL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
