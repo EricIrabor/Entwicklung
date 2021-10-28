@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:CalculatorView"
              xmlns:vm="clr-namespace:CalculatorViewModel;assembly=CalculatorViewModel"
+             d:DataContext="{d:DesignInstance {x:Type vm:CalculationViewModel }}"
              mc:Ignorable="d"
              d:DesignWidth="1200"
              d:DesignHeight="1000">
@@ -22,13 +23,12 @@
             <RowDefinition Height="80*" />
         </Grid.RowDefinitions>
 
-        <local:HeaderView Grid.Row="0">
-        </local:HeaderView>
+        <local:HeaderView Grid.Row="0" DataContext="{Binding HeaderViewModel}" />
 
-        <local:DisplayView Grid.Row="1">
-        </local:DisplayView>
+        <local:DisplayView Grid.Row="1" DataContext="{Binding DisplayViewModel}"/>
 
-        <local:MathFunctionsView Grid.Row="2">
+
+        <local:MathFunctionsView Grid.Row="2" DataContext="{Binding MathFunctionsViewModel}">
         </local:MathFunctionsView>
     </Grid>
 </UserControl>

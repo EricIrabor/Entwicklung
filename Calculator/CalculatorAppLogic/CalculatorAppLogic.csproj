@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppLogic.cs" />
-    <Compile Include="Creator\ViewModelCreator\VMCreator.cs" />
+    <Compile Include="Creator\ViewModelCreator\VmCreator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

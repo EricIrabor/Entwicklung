@@ -1,9 +1,10 @@
-﻿using CalculatorViewModel;
+﻿using CalculatorBL.BO.Interface;
+using CalculatorViewModel;
 using CalculatorViewModel.Interfaces;
 
 namespace CalculatorAppLogic.Creator.ViewModelCreator
 {
-    public class VMCreator
+    public class VmCreator
     {
         private readonly ICalculationViewModel calculationViewModel;
         private readonly IDisplayViewModel displayViewModel;
@@ -11,10 +12,12 @@ namespace CalculatorAppLogic.Creator.ViewModelCreator
         private readonly IMathFunctionsViewModel mathFunctionsViewModel;
         private readonly INumberViewModel numberViewModel;
 
-        public VMCreator()
+      
+
+        public VmCreator(ICalculatorManager calculatorManager)
         {
             headerViewModel = new HeaderViewModel();
-            displayViewModel = new DisplayViewModel();
+            displayViewModel = new DisplayViewModel(calculatorManager);
             numberViewModel = new NumberViewModel();
             mathFunctionsViewModel = new MathFunctionsViewModel(numberViewModel);
             calculationViewModel = new CalculationViewModel(displayViewModel, headerViewModel, mathFunctionsViewModel);

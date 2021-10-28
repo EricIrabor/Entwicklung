@@ -7,6 +7,6 @@ namespace CalculatorBL.BO.Interface
         event PropertyChangedEventHandler PropertyChanged;
 
         string Input { get; set; }
-        string Output { get; set; }
+        string Output { set; }
     }
 }

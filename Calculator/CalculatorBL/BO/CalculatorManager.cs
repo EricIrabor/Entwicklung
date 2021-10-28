@@ -23,16 +23,18 @@ namespace CalculatorBL.BO
                 if (input != value)
                 {
                     input = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Input)));
                 }
             }
         }
 
         public string Output
         {
-            get => output;
+         
             set
             {
                 output = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Output)));
             }
         }
 
