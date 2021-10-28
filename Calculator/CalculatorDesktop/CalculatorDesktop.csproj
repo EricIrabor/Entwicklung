@@ -69,6 +69,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,6 +96,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CalculatorAppLogic\CalculatorAppLogic.csproj">
+      <Project>{51dbf66c-0fab-4b57-ad29-d5dcd2a72dd7}</Project>
+      <Name>CalculatorAppLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CalculatorViewModel\CalculatorViewModel.csproj">
       <Project>{0c662859-ccb0-4a16-a0f9-7285b5bf2ec9}</Project>
       <Name>CalculatorViewModel</Name>

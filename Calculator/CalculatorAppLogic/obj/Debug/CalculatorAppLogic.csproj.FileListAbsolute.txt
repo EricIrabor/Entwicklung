@@ -1,0 +1,13 @@
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\obj\Debug\CalculatorAppLogic.csproj.AssemblyReference.cache
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\obj\Debug\CalculatorAppLogic.csproj.CoreCompileInputs.cache
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorAppLogic.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorAppLogic.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorBL.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorView.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorViewModel.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorBL.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorViewModel.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\bin\Debug\CalculatorView.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\obj\Debug\CalculatorAppLogic.csproj.CopyComplete
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\obj\Debug\CalculatorAppLogic.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorAppLogic\obj\Debug\CalculatorAppLogic.pdb

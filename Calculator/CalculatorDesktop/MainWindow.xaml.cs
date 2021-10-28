@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using CalculatorAppLogic;
+using CalculatorViewModel.Interfaces;
+using System.Windows;
 
 namespace CalculatorDesktop
 {
@@ -10,6 +12,10 @@ namespace CalculatorDesktop
         public MainWindow()
         {
             InitializeComponent();
+            AppLogic appLogic = new AppLogic();
+
+            ICalculationViewModel calculationViewModel = appLogic.GetCalculationViewModel();
+            DataContext = new MainWindowViewModel(calculationViewModel);
         }
     }
 }

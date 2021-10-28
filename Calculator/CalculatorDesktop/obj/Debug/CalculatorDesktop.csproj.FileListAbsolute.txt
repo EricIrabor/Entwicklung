@@ -17,3 +17,5 @@ C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorDesktop\obj\Debug\C
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorDesktop\obj\Debug\CalculatorDesktop.csproj.CopyComplete
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorDesktop\obj\Debug\CalculatorDesktop.exe
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorDesktop\obj\Debug\CalculatorDesktop.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorDesktop\bin\Debug\CalculatorAppLogic.dll
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorDesktop\bin\Debug\CalculatorAppLogic.pdb

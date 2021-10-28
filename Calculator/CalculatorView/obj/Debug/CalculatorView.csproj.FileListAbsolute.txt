@@ -19,6 +19,6 @@ C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\Math
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculationView.baml
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.g.resources
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.CoreCompileInputs.cache
-C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.CopyComplete
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.dll
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.CopyComplete
