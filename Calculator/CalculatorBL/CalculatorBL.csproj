@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BO\CalculatorManager.cs" />
     <Compile Include="BO\Interface\ICalculatorManager.cs" />
+    <Compile Include="Commands\PressedNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

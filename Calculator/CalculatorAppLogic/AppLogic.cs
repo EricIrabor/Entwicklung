@@ -1,25 +1,25 @@
-﻿using CalculatorAppLogic.Creator.ViewModelCreator;
-using CalculatorBL.BO;
-using CalculatorBL.BO.Interface;
+﻿using CalculatorAppLogic.Container;
+using CalculatorAppLogic.Creator;
 using CalculatorViewModel.Interfaces;
 
 namespace CalculatorAppLogic
 {
     public class AppLogic
     {
-        private readonly VmCreator vmCreator;
-        private readonly ICalculatorManager calculatorManager;
+        private readonly VmContainer vmContainer;
 
         public AppLogic()
         {
+            BLCreator bLCreator = new BLCreator();
+            BLContainer bLContainer = bLCreator.ReturnBOContainer();
 
-            calculatorManager = new CalculatorManager();
-            vmCreator = new VmCreator(calculatorManager);
+            VmCreator vmCreator = new VmCreator(bLContainer);
+            vmContainer = vmCreator.ReturnVmContainer();
         }
 
         public ICalculationViewModel GetCalculationViewModel()
         {
-            return vmCreator.ReturnCalculationViewModel();
+            return vmContainer.CalculationViewModel;
         }
     }
 }

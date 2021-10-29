@@ -6,9 +6,7 @@ namespace CalculatorViewModel.Interfaces
     {
         event PropertyChangedEventHandler PropertyChanged;
 
-        string Input {get; set;}
-       string Output { set; }
-
-
+        string Input { get; set; }
+        string Output { set; }
     }
 }

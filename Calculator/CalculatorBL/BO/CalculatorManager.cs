@@ -15,6 +15,8 @@ namespace CalculatorBL.BO
             Output = String.Empty;
         }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
         public string Input
         {
             get => input;
@@ -30,14 +32,11 @@ namespace CalculatorBL.BO
 
         public string Output
         {
-         
             set
             {
                 output = value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Output)));
             }
         }
-
-        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

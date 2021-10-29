@@ -8,21 +8,17 @@ namespace CalculatorViewModel
     {
         private readonly ICalculatorManager calculatorManager;
 
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public DisplayViewModel(ICalculatorManager calculatorManager)
         {
             this.calculatorManager = calculatorManager;
-            calculatorManager.PropertyChanged += CalculatorManager_PropertyChanged;  //Event Abboniert 
+            calculatorManager.PropertyChanged += CalculatorManager_PropertyChanged;  //Event Abboniert
         }
 
-
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Input
         {
-            get 
+            get
             {
                 return calculatorManager.Input;
             }
@@ -32,13 +28,10 @@ namespace CalculatorViewModel
             }
         }
 
-        public string Output { set; }
-
-
+        public string Output { set { } }
 
         public void CalculatorManager_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-
             UpdateView();
         }
 
@@ -47,6 +40,5 @@ namespace CalculatorViewModel
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Input)));
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Output)));
         }
-
     }
 }

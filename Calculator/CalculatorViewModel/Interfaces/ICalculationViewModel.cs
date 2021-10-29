@@ -2,8 +2,8 @@
 {
     public interface ICalculationViewModel
     {
+        IDisplayViewModel DisplayViewModel { get; }
         IHeaderViewModel HeaderViewModel { get; }
         IMathFunctionsViewModel MathFunctionsViewModel { get; }
-        IDisplayViewModel DisplayViewModel { get; }
     }
 }

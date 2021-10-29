@@ -1,31 +1,33 @@
-﻿using CalculatorBL.BO.Interface;
+﻿using CalculatorAppLogic.Container;
 using CalculatorViewModel;
 using CalculatorViewModel.Interfaces;
 
-namespace CalculatorAppLogic.Creator.ViewModelCreator
+namespace CalculatorAppLogic.Creator
 {
     public class VmCreator
     {
+        #region Dekleration
+
         private readonly ICalculationViewModel calculationViewModel;
         private readonly IDisplayViewModel displayViewModel;
         private readonly IHeaderViewModel headerViewModel;
         private readonly IMathFunctionsViewModel mathFunctionsViewModel;
         private readonly INumberViewModel numberViewModel;
 
-      
+        #endregion Dekleration
 
-        public VmCreator(ICalculatorManager calculatorManager)
+        public VmCreator(BLContainer bLContainer)
         {
+            displayViewModel = new DisplayViewModel(bLContainer.CalculatorManager);
             headerViewModel = new HeaderViewModel();
-            displayViewModel = new DisplayViewModel(calculatorManager);
-            numberViewModel = new NumberViewModel();
+            numberViewModel = new NumberViewModel(bLContainer.Number0, bLContainer.Number1);
             mathFunctionsViewModel = new MathFunctionsViewModel(numberViewModel);
             calculationViewModel = new CalculationViewModel(displayViewModel, headerViewModel, mathFunctionsViewModel);
         }
 
-        public ICalculationViewModel ReturnCalculationViewModel()
+        public VmContainer ReturnVmContainer()
         {
-            return calculationViewModel;
+            return new VmContainer(calculationViewModel);
         }
     }
 }

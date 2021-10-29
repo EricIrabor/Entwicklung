@@ -33,7 +33,7 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
 
-        <local:NumberView
+        <local:NumberView DataContext="{Binding NumberViewModel}"
             Grid.Row="2"
             Grid.RowSpan="4"
             Grid.Column="0"

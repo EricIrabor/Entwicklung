@@ -23,4 +23,3 @@ C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\Calc
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.CoreCompileInputs.cache
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.dll
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.pdb
-C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorView\obj\Debug\CalculatorView.csproj.CopyComplete

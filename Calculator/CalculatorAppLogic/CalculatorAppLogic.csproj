@@ -42,12 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppLogic.cs" />
-    <Compile Include="Creator\ViewModelCreator\VmCreator.cs" />
+    <Compile Include="Container\BLContainer.cs" />
+    <Compile Include="Container\VmContainer.cs" />
+    <Compile Include="Creator\BLCreator.cs" />
+    <Compile Include="Creator\VmCreator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Container\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CalculatorBL\CalculatorBL.csproj">
       <Project>{bd11e729-e792-40f9-ae66-8d70e5fab52e}</Project>
