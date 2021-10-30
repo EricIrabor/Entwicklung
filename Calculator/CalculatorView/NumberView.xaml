@@ -32,31 +32,37 @@
             Grid.Row="0"
             Grid.Column="0"
             Content="7"
+            Command="{Binding Number7}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="0"
             Grid.Column="1"
             Content="8"
+            Command="{Binding Number8}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="0"
             Grid.Column="2"
-            Content="8"
+            Content="9"
+            Command="{Binding Number9}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="1"
             Grid.Column="0"
             Content="4"
+            Command="{Binding Number4}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="1"
             Grid.Column="1"
             Content="5"
+            Command="{Binding Number5}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="1"
             Grid.Column="2"
             Content="6"
+            Command="{Binding Number6}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="2"
@@ -68,11 +74,13 @@
             Grid.Row="2"
             Grid.Column="1"
             Content="2"
+            Command="{Binding Number2}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="2"
             Grid.Column="2"
             Content="3"
+            Command="{Binding Number3}"
             Style="{StaticResource NumberButtonStyle}" />
         <Button
             Grid.Row="3"
@@ -82,7 +90,6 @@
         <Button
             Grid.Row="3"
             Grid.Column="1"
-            Click="Button_Click"
             Command="{Binding Number0}"
             Content="0"
             Style="{StaticResource NumberButtonStyle}" />

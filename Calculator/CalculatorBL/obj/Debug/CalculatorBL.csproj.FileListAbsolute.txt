@@ -3,3 +3,4 @@ C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorBL\bin\Debug\Calcul
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorBL\obj\Debug\CalculatorBL.csproj.CoreCompileInputs.cache
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorBL\obj\Debug\CalculatorBL.dll
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorBL\obj\Debug\CalculatorBL.pdb
+C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorBL\obj\Debug\CalculatorBL.csproj.AssemblyReference.cache

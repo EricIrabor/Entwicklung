@@ -4,6 +4,5 @@ C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\bin\Debug
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\bin\Debug\CalculatorBL.pdb
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.csproj.AssemblyReference.cache
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.csproj.CoreCompileInputs.cache
-C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.csproj.CopyComplete
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.dll
 C:\workspace\C#\Entwicklung\HomeProject\Calculator\CalculatorViewModel\obj\Debug\CalculatorViewModel.pdb
