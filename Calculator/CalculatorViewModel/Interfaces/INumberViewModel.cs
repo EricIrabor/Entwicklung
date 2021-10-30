@@ -14,5 +14,7 @@ namespace CalculatorViewModel.Interfaces
         ICommand Number7 { get; }
         ICommand Number8 { get; }
         ICommand Number9 { get; }
+        ICommand Sign { get; }
+        ICommand Point { get; }
     }
 }

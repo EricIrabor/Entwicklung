@@ -8,7 +8,7 @@ namespace CalculatorViewModel
         public NumberViewModel(ICommand number0, ICommand number1, ICommand number2,
                                ICommand number3, ICommand number4, ICommand number5,
                                ICommand number6, ICommand number7, ICommand number8,
-                               ICommand number9)
+                               ICommand number9, ICommand sign, ICommand point)
         {
             Number0 = number0;
             Number1 = number1;
@@ -20,6 +20,8 @@ namespace CalculatorViewModel
             Number7 = number7;
             Number8 = number8;
             Number9 = number9;
+            Sign = sign;
+            Point = point;
         }
 
         public ICommand Number0 { get; }
@@ -32,5 +34,7 @@ namespace CalculatorViewModel
         public ICommand Number7 { get; }
         public ICommand Number8 { get; }
         public ICommand Number9 { get; }
+        public ICommand Sign { get; }
+        public ICommand Point { get; }
     }
 }

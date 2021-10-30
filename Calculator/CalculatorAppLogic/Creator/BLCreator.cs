@@ -19,6 +19,8 @@ namespace CalculatorAppLogic.Creator
         private readonly ICommand number7;
         private readonly ICommand number8;
         private readonly ICommand number9;
+        private readonly ICommand sign;
+        private readonly ICommand point;
 
         public BLCreator()
         {
@@ -33,13 +35,15 @@ namespace CalculatorAppLogic.Creator
             number7 = new PressedNumber(calculatorManager, "7");
             number8 = new PressedNumber(calculatorManager, "8");
             number9 = new PressedNumber(calculatorManager, "9");           
+            sign = new PressedNumber(calculatorManager, "-");           
+            point = new PressedNumber(calculatorManager, ".");           
         }
 
         public BLContainer ReturnBOContainer()
         {
             return new BLContainer(calculatorManager, number0, number1,
                                    number2, number3, number4, number5, number6,
-                                   number7, number8, number9);
+                                   number7, number8, number9, sign, point);
         }
     }
 }

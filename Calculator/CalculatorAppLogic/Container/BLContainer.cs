@@ -7,7 +7,8 @@ namespace CalculatorAppLogic.Container
     {
         public BLContainer(ICalculatorManager calculatorManager, ICommand number0, ICommand number1, 
                            ICommand number2, ICommand number3, ICommand number4, ICommand number5,
-                           ICommand number6, ICommand number7, ICommand number8, ICommand number9)
+                           ICommand number6, ICommand number7, ICommand number8, ICommand number9,
+                           ICommand sign, ICommand point)
         {
             CalculatorManager = calculatorManager;
             Number0 = number0;
@@ -20,6 +21,8 @@ namespace CalculatorAppLogic.Container
             Number7 = number7;
             Number8 = number8;
             Number9 = number9;
+            Sign = sign;
+            Point = point;
         }
 
         public ICalculatorManager CalculatorManager { get; }
@@ -33,5 +36,7 @@ namespace CalculatorAppLogic.Container
         public ICommand Number7 { get; }
         public ICommand Number8 { get; }
         public ICommand Number9 { get; }
+        public ICommand Sign { get; }
+        public ICommand Point { get; }
     }
 }

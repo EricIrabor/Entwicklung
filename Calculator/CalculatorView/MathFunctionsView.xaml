@@ -40,6 +40,7 @@
             Grid.ColumnSpan="3"
             DataContext="{Binding NumberViewModel}" />
 
+        
         <Button
             Grid.Row="0"
             Grid.Column="0"
@@ -108,5 +109,6 @@
             FontSize="30"
             FontWeight="SemiBold"
             Foreground="White" />
+        
     </Grid>
 </UserControl>
